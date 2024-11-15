@@ -1,4 +1,42 @@
-# JupyterLite Demo
+# Learn Python with Yer Face
+
+Conceived as a JupyterLite demo, this has run afoul of JupyterLite's 
+out-of-date `pillow` version (has 10.2, need 11.0).  For the moment, 
+you have two ways available to run the notebooks.
+
+## On your own machine
+
+This requires installing Python, Jupyter Lab, and Pillow.  If you 
+know how to do all that... are you sure you should be taking an 
+introductory Python tutorial?
+
+## On Google Collab
+
+My apologies for directing you to a commercial service.
+
+Sign in to [Google Collab](https://colab.research.google.com/) and 
+work through as many of these as you have the inclination to!
+
+1. [yerface](https://colab.research.google.com/github/dayton-dynamic/yerface/blob/main/content/yerface.ipynb)
+1. [Functions](https://colab.research.google.com/github/dayton-dynamic/yerface/blob/main/content/functions.ipynb)
+1. [Your Meme](https://colab.research.google.com/github/dayton-dynamic/yerface/blob/main/content/meme.ipynb)
+1. (Optional) [Filters](https://colab.research.google.com/github/dayton-dynamic/yerface/blob/main/content/filters.ipynb)
+1. (Optional) [Randomness](https://colab.research.google.com/github/dayton-dynamic/yerface/blob/main/content/randomness.ipynb)
+1. (Optional) A [Blank Playground](https://colab.research.google.com/github/dayton-dynamic/yerface/blob/main/content/blank.ipynb)
+
+Instead of using the direct links, you can...
+
+Under "Open notebook", choose "GitHub", and enter
+
+    https://github.com/dayton-dynamic/yerface
+
+A list of Paths will appear; scroll down to the very bottom:
+
+    content/yerface.ipynb
+
+
+
+# JupyterLite Demo info
 
 [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
 
