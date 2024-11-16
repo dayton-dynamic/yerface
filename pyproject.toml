@@ -1,0 +1,10 @@
+[project]
+name = "yerface"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.3"
+dependencies = [
+    "jupyterlab>=4.3.0",
+    "pillow>=11.0.0",
+]

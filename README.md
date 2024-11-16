@@ -10,6 +10,24 @@ This requires installing Python, Jupyter Lab, and Pillow.  If you
 know how to do all that... are you sure you should be taking an 
 introductory Python tutorial?
 
+[Install uv](https://docs.astral.sh/uv/) 
+
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+
+or 
+
+    powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+Next, grab the code:
+
+    git clone https://github.com/dayton-dynamic/yerface.git
+
+or [Download the zip file](https://github.com/dayton-dynamic/yerface/archive/refs/heads/main.zip) and unzip
+
+    cd yerface 
+
+    uv run jupyter lab
+
 ## On Google Collab
 
 My apologies for directing you to a commercial service.
